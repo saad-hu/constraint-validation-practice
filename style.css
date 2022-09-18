@@ -20,9 +20,32 @@ fieldset > div+div {
     margin-top: 25px;
 }
 
-/* label {
-    width: 200px;
+label {
+    display: inline-block;
+    width: 30%;
+    text-align: end;
+}
+
+input {
+    appearance: none;
+    width: 60%;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+    border: 1px black solid;
+}
+
+/* input:valid {
+    border-color: green;
 } */
+
+input + span {
+    display: block;
+    /* position: absolute; */
+}
+
+
 
 
 

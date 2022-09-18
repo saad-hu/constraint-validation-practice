@@ -10,17 +10,17 @@
 </head>
 <body>
 
-    <form>
+    <form novalidate>
         <fieldset>
             <div>
                 <label for="email">Email*</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required minlength="5">
                 <span></span>
             </div>
 
             <div>
                 <label for="country">Country*</label>
-                <input type="text" name="country" id="country">
+                <input type="text" name="country" id="country" required>
                 <span></span>
             </div>
 
@@ -40,6 +40,10 @@
                 <label for="confirm-password">Confirm Password*</label>
                 <input type="password" name="confirm-password" id="confirm-password">
                 <span></span>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
             </div>
         </fieldset>
     </form>
