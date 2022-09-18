@@ -117,7 +117,6 @@ function checkAll() {
     let zipcodeEr = checkzipcode(); 
     let passwordEr = checkPassword();
     let confirmPasswordEr = checkConfirmPassword();
-
-    console.log(emailEr,countryEr,zipcodeEr,passwordEr,confirmPasswordEr);
+    
     return (emailEr && countryEr && zipcodeEr && passwordEr && confirmPasswordEr);
 }

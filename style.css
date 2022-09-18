@@ -43,6 +43,7 @@ input {
 input + span {
     display: block;
     /* position: absolute; */
+    color: red;
 }
 
 
